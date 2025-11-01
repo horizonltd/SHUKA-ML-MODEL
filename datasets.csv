@@ -1,0 +1,12 @@
+﻿IP,Port,Protocol,Malicious,Threat_Level,Attack_Type,Country,Timestamp,Description
+192.168.1.1,443,TCP,1,High,DDoS,USA,2025-03-09 12:30:00,Detected multiple connection attempts from a known malicious source.
+192.168.1.2,80,TCP,0,Low,None,Canada,2025-03-09 12:35:00,Normal web traffic.
+192.168.1.3,22,TCP,1,High,Brute Force,Germany,2025-03-09 12:40:00,Unusual SSH login attempts detected.
+192.168.1.4,53,UDP,0,Medium,None,UK,2025-03-09 12:45:00,Regular DNS query activity.
+192.168.1.5,8080,TCP,1,Critical,Ransomware,Russia,2025-03-09 12:50:00,Communication with known ransomware command & control server.
+192.168.1.6,21,TCP,0,Low,None,France,2025-03-09 12:55:00,Standard FTP traffic.
+192.168.1.7,25,TCP,1,High,Spam Botnet,Brazil,2025-03-09 13:00:00,Large volume of outbound spam emails detected.
+192.168.1.8,3389,TCP,1,Critical,Remote Exploit,India,2025-03-09 13:05:00,Suspicious RDP connection attempts detected.
+192.168.1.9,135,TCP,0,Medium,None,Japan,2025-03-09 13:10:00,Legitimate RPC service traffic.
+192.168.1.10,23,TCP,1,High,Telnet Brute Force,China,2025-03-09 13:15:00,Numerous failed Telnet login attempts from an unknown source.
+192.168.1.11,23,TCP,1,High,Telnet Brute Force,Nigeria,2025-03-09 13:15:00,Numerous failed Telnet login attempts from an unknown source.
